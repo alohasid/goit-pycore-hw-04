@@ -1,5 +1,3 @@
-import sys
-
 contacts = {}
 
 def parse_input(user_input):
