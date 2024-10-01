@@ -23,6 +23,5 @@ def total_salary(path: pathlib.Path) -> tuple[int, int]:
 
     return total, avarage
 
-total_compensation, avarage_compensation = total_salary(pathlib.Path('compensations.txt'))
-
-print(total_compensation, avarage_compensation)
+total, average = total_salary("compensations.txt")
+print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
